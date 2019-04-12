@@ -125,10 +125,10 @@ class TestCharge:
 
         dict = {
             "webhook_url": "http://localhost/loja/minha-conta",
-            "reference": "Pedido#005",
+            "reference": "Pedido#006",
             "payments": [
                 {
-                    "reference": "Pedido#005",
+                    "reference": "Pedido#006",
                     "method": "billet",
                     "amount": 100.00
                 }
@@ -145,12 +145,6 @@ class TestCharge:
                         "reference": "001",
                         "quantity": 1,
                         "description": "PRODUTO TESTE",
-                        "categories": [
-                            {
-                                "name": "Outros",
-                                "id": "001"
-                            }
-                        ],
                         "amount": 100.00
                     }
                 ],
