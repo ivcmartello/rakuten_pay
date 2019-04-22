@@ -1,5 +1,5 @@
-from resources import handler_request
-from resources.routes import checkout_routes
+from . import handler_request
+from .routes import checkout_routes
 
 
 def get(document, value):

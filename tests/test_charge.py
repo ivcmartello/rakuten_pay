@@ -1,4 +1,4 @@
-import charge
+from rakuten_pay_pkg import charge
 
 from resources import handler_request
 

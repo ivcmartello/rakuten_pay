@@ -1,5 +1,5 @@
-from resources import handler_request
-from resources.routes import charge_routes
+from . import handler_request
+from .routes import charge_routes
 
 
 def cancel(id, dictionary={}):

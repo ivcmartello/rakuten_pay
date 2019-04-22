@@ -1,4 +1,4 @@
-import checkout
+from rakuten_pay_pkg import checkout
 from resources import handler_request
 
 

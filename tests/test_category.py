@@ -1,4 +1,4 @@
-import category
+from rakuten_pay_pkg import category
 from resources import handler_request
 
 
