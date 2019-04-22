@@ -1,6 +1,6 @@
-from rakuten_pay_pkg import charge
+from rakuten_pay import charge
 
-from resources import handler_request
+from rakuten_pay import handler_request
 
 
 class TestCharge:

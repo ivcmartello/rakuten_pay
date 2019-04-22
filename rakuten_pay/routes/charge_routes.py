@@ -1,4 +1,4 @@
-from rakuten_pay_pkg.routes.base_routes import BASE_URL
+from rakuten_pay.routes.base_routes import BASE_URL
 
 CHARGE_LINK = BASE_URL + '/rpay/v1/charges'
 

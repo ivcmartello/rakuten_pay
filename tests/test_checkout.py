@@ -1,5 +1,5 @@
-from rakuten_pay_pkg import checkout
-from resources import handler_request
+from rakuten_pay import checkout
+from rakuten_pay import handler_request
 
 
 class TestCategory:
