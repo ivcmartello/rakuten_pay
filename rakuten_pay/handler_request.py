@@ -40,7 +40,7 @@ def put(end_point, data={}):
 
 
 def error(data):
-    raise Exception(data['errors'])
+    raise Exception(data['result_messages'])
 
 
 def headers():

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='rakuten_pay',
-    version='0.0.3',
+    version='0.0.4',
     url='https://github.com/ivcmartello/rakuten_pay',
     license='MIT License',
     author='Ivan Carlos Martello',
